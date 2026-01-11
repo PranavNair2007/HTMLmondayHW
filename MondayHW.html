@@ -1,0 +1,130 @@
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice Page</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 40px;
+    }
+    #\ biggerheading {
+        background: #e0e0e0;
+        border: 1px solid black;
+        padding: 10px;
+        width: fit-content;
+    }
+    h3 {
+        border: 2px dashed blue !important;
+        padding: 5px 40px; 
+        width: fit-content;
+    }
+    
+    hr {
+        margin: 50px 0; 
+        border: 1px solid red !important;
+    }
+
+    
+    .intro-text {
+        background: #e0e0e0;
+        border: 1px solid black;
+        padding: 20px; 
+        width: 300px;
+    }
+
+    
+    pre {
+        box-sizing: border-box; 
+        width: 300px;
+        padding: 20px;
+        border: 5px solid purple !important;
+        background: #e0e0e0;
+    }
+
+    
+    ul.feature-list li {
+        background: #e0e0e0;
+        border: 1px solid black;
+        margin-bottom: 10px; 
+        padding: 10px;
+        list-style: none;
+    } 
+    ol.feature-list {
+        background: #e0e0e0;
+        border: 1px solid black;
+        padding: 25px; 
+        margin: 20px;  
+    }
+
+    div:not(.intro-text) {
+        background: #e0e0e0;
+        border: 1px solid black;
+        padding: 20px;
+        width: 250px;
+        height: 150px;
+    }
+
+    .external-link {
+        background: #ffe0b2;
+        border: 1px solid orange !important;
+        padding: 0 30px; 
+        display: inline-block;
+    }
+
+    
+    #submit-btn {
+        display: block;
+        width: 200px;
+        padding: 20px;
+        border: 2px solid #333 !important;
+        background: #e0e0e0 !important;
+        text-align: left;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+    <h1 id=" biggerheading">HTML Practice Page</h1>
+    <h3 style="color:rgb(156, 7, 182)">this is a sub heading</h3>
+    <p class="intro-text">
+         <b>This will be in bold</b><br><strong>It changes the width and hieght according to changing the size</strong><br>
+         <i>this will be in Italic</i><br><em>this will be in em</em> web pages.
+    </p>
+        <hr style="border:3px goldenrod">
+    <pre style="color: rgb(255, 101, 5);">
+        This text
+        maintains    spaces
+        and line
+        breaks exactly.
+    </pre>
+    <ul class="feature-list">
+        <li>bold</li>
+        <li>strong</li>
+        <li>itallic</li>
+    </ul>
+        <hr style="border:3px goldenrod">
+    <ol class="feature-list">
+        <li>bold</li>
+        <li>strong</li>
+        <li>itallic</li>
+        </ol>
+
+    <a href="https://www.wikipedia.org" target="_blank" class="external-link" style="color: orange; text-decoration: none; font-weight: bold;">Visit Wikipedia (New Tab)</a>
+
+
+    <div>
+        The weather today is <span style="color: royalblue; font-weight: bold;">wonderful</span> for coding.
+    </div>
+
+    <button id="submit-btn" style="background-color: gold; border: 1px solid black; padding: 5px 10px;">Submit</button>
+
+    <footer class="page-footer" style="font-size: 0.8em; margin-top: 20px;">
+        Practice Page (footer)
+    </footer>
+
+</body>
+</html>
